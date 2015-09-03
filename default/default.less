@@ -1,0 +1,77 @@
+
+@import "../controls.less";
+@import "../AmazonMenu.less";
+
+
+
+
+/* alignment for the master page table */
+.alignment
+{
+    width: 98%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    .roundedCorners;
+}
+
+/* box styles */
+
+.mainBox
+{
+    /*	background-image: url("blue_gradient.png" );*/
+    background-color: @main_color;
+    color: White;
+    height: 32px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.mainBox a
+{
+    color: White;
+}
+
+
+
+
+.headerBox
+{
+    /*background-image: url("blue_gradient.png" );*/
+    background-color: @main_color;
+    color: White;
+    height: 29px;
+    border-left-width: 1.0px;
+    border-left-style: solid;
+    border-left-color: #D8D8D8;
+    border-right-width: 1.0px;
+    border-right-style: solid;
+    border-right-color: #D8D8D8;
+}
+
+.regularBox
+{
+    border-bottom-width: 1.0px;
+    border-bottom-style: solid;
+    border-bottom-color: #D8D8D8;
+    border-left-width: 1.0px;
+    border-left-style: solid;
+    border-left-color: #D8D8D8;
+    border-right-width: 1.0px;
+    border-right-style: solid;
+    border-right-color: #D8D8D8;
+}
+
+
+.mainContentBox
+{
+    margin: 7px;
+    text-align: center;
+}
+
+
+/*mixins*/
+.roundedCorners
+{
+    border-radius: 8px;
+}
